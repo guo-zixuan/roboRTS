@@ -1,0 +1,438 @@
+simulate: true
+master: true
+
+wing_bot {
+  start_position {
+    x: 1.25 # 7.23
+    y: 1.17 # 4.32
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   1.57 # -1.57
+  }
+}
+
+master_bot {
+  start_position {
+    x: 0.56 # 7.68
+    y: 0.56 # 4.77
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0.3774188 # 3.14
+  }
+}
+
+# icra2019 map
+# simlua1tion_new point
+###############################
+point {
+  x: 7.12134504318
+  y: 1.42481529713
+  z: 0
+
+  roll:   0.00
+  pitch:  0.000
+  yaw:    5.592
+}
+
+point {
+  x: 10.5834884644
+  y: 2.22913694382
+  z: 0
+
+  roll:   0.00
+  pitch:  0.000
+  yaw:    33.102
+}
+
+point {
+  x: 11.6433849335
+  y: 4.00542736053
+  z: 0
+
+  roll:   0.00
+  pitch:  0.000
+  yaw:    97.706
+}
+point {
+  x: 9.87067604065
+  y: 4.77678585052
+  z: 0
+
+  roll:   0.00
+  pitch:  0.000
+  yaw:   -163.500
+}
+#######################
+
+
+point {
+  x: 8.477
+  y: 9.33
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   0.3137579
+}
+point {
+  x: 8.477
+  y: 9.33
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   0.3137579
+}
+point {
+  x: 8.477
+  y: 9.33
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   0.3137579
+}
+
+point {
+  x: 11.7121
+  y: 10.6997
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw: 0.3137579
+}
+
+point {
+  x: 14.570553
+  y: 11.618210
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw: 0.3137579
+}
+
+point {
+  x: 16.010
+  y: 12.1746
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw: 0.3137579
+}
+
+point {
+  x: 18.351
+  y: 12.781
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw: 0.3137579
+}
+
+
+point {
+  x: 18.6382
+  y: 14.5896
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw: 1.9615659
+}
+
+point {
+  x: 17.365
+  y: 20.060
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:1.9003096
+}
+
+point {
+  x: 17.365
+  y: 20.060
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw: -2.764726
+}
+
+point {
+  x: 15.684
+  y: 20.5521
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   -2.764726
+}
+
+point {
+  x: 15.684
+  y: 20.5521
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw: -1.3145651
+}
+
+point {
+  x: 17.3364
+  y: 15.6367
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw: -1.290157
+}
+
+point {
+  x: 17.9888
+  y: 12.8144
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw: -1.290157
+}
+
+point {
+  x: 17.9888
+  y: 12.8144
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw: -2.8001016
+}
+
+point {
+  x: 13.369888
+  y: 11.20
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw: -2.8001016
+}
+
+point {
+  x: 9.2457
+  y: 9.7178
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw: -2.79537
+}
+
+escape {
+  left_x_limit: 2.5
+  right_x_limit: 5.5
+  robot_x_limit: 4
+  left_random_min_x: 0
+  left_random_max_x: 2.5
+  right_random_min_x: 5.5
+  right_random_max_x: 8
+}
+
+buff_point {
+
+  x: 4.15
+  y: 2.85
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   -0.52 #2.62
+}
+
+buff_point {
+
+  x: 4.35
+  y: 2.65
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   -0.52
+}
+
+buff_point {
+
+  x: 4.15
+  y: 2.85
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   -0.52
+}
+
+buff_point {
+
+  x: 4.35
+  y: 2.65
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   -0.52
+}
+
+search_limit {
+  x_limit: 4.2
+  y_limit: 2.75
+}
+
+whirl_vel {
+  angle_x_vel: 0
+  angle_y_vel: 0
+  angle_z_vel: 1
+}
+wing_bot_task_point {
+  x: 4.2
+  y: 0.87
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   1.57
+}
+
+search_region_1 {
+  x: 2.86
+  y: 2.50
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   -1.57
+}
+
+search_region_1 {
+  x: 1.78
+  y: 0.94
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   3.14
+}
+
+search_region_1 {
+  x: 1.4
+  y: 2.18
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   1.57
+}
+
+search_region_2 {
+  x: 5.35
+  y: 0.8
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   0
+}
+
+search_region_2 {
+  x: 7.40
+  y: 2.10
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   1.57
+}
+
+search_region_2 {
+  x: 5.35
+  y: 2.24
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   3.14
+}
+
+search_region_3 {
+  x: 3.05
+  y: 4.56
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   3.14
+}
+
+search_region_3 {
+  x: 0.8
+  y: 4.02
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   -1.57
+}
+
+search_region_3 {
+  x: 2.84
+  y: 3.47
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   0
+}
+
+search_region_4 {
+  x: 5.55
+  y: 2.93
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   1.57
+}
+
+search_region_4 {
+  x: 6.14
+  y: 4.34
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   0
+}
+
+search_region_4 {
+  x: 6.83
+  y: 3.05
+  z: 0
+
+  roll:  0
+  pitch: 0
+  yaw:   -1.57
+}
+
+
+
+
+
